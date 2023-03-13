@@ -1,0 +1,652 @@
+
+/* global selector */
+
+*{
+    list-style-type: none;
+    margin: 0%;
+    padding: 0%;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+.palaba{
+    display: flex;
+    justify-content: space-between;
+}
+
+.de-logo img{
+    width: 130px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.promise{
+    background-image: linear-gradient(rgba(231, 154, 154, 0.389), rgba(128, 128, 128, 0.726)), url(./Images/worldsbiggestcruiseship.webp);
+    background-position: center;
+    background-size: cover;
+    height: 80vh;
+    background-attachment: fixed;
+}
+
+ul li{
+    display: inline-block;
+    line-height: 90px;
+    margin: 10px;
+    
+    
+}
+
+li a{
+    color: black;
+    font-weight: bold;
+    
+}
+
+
+li a:hover{
+    background-color: rgb(255, 255, 255);
+    padding: 5px;
+    border-radius: 5px;
+    transition: all 0.5s;
+    box-shadow: 0 10px 10px 0 rgb(78, 66, 66);
+}
+ 
+.header{
+    text-align: center;
+    margin-top: 150px;
+}
+
+.headline h1{
+    font-size: 30px;
+    font-weight: bold;
+   font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.header p{
+    font-weight: bold;
+    font-style: italic;
+    margin-top: 7px;
+    margin-bottom: 25px;
+}
+
+
+.checkbtn{
+
+    float: right;
+    margin-right: 10px;
+    cursor: pointer;
+    display: none;
+    margin-top: 20px;
+  }
+
+.btn{
+
+    padding: 15px 10px 15px 10px;
+    overflow: hidden;
+    background: none;
+    border-radius: 25px;
+    position: absolute;
+    right: 45%;
+    border: 2px solid salmon;
+}
+
+.btn:hover{
+
+    background-color: #ff5e00ae;
+    transition: 0.5s;
+    box-shadow: 3px 7px 5px 3px black;
+    z-index: auto;
+}
+
+.btn-btn{
+    background-color: rgb(213, 42, 33);
+    margin-right: 20px;
+    padding: 8px;
+    border-radius: 15px;
+}
+
+.fa-mark{
+  display: none;
+}
+
+/* second column */
+
+.apple{
+  text-align: center;
+  background-image: linear-gradient(rgba(245, 245, 245, 0.186), rgba(128, 128, 128, 0.677));
+  height: 70vh;
+}
+
+.apple h2{
+  font-size: 35px;
+  color: coral;
+}
+
+
+.baller{
+  display: flex;
+  margin-top: 80px;
+  justify-content: space-between;
+  
+  
+}
+
+.cup{
+  margin-top: 30px;
+}
+
+.cup p{
+  margin-top: 10px;
+  font-weight: bold;
+  font-style: italic;
+}
+
+.ballie{
+  margin-right: 50px;
+  margin-left: 50px;
+  border: 1px solid white;
+  border-radius: 30px;
+  padding: 20px;
+  box-shadow: 2px 3px 4px 3px rgba(0, 0, 0, 0.735);
+  cursor: pointer;
+}
+
+.ballie:hover{
+  box-shadow: 4px 8px 5px 4px rgba(0, 0, 0, 0.942);
+  transition: 1s;
+}
+
+.fanfare{
+  font-size: 25px;
+  padding: 10px;
+}
+
+/* third column */
+
+.drop{
+  text-align: center;
+  padding-top: 50px;
+  background-image: linear-gradient(rgba(128, 128, 128, 0.845), rgba(210, 105, 30, 0.314)) ,url(./Images/duche.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 115vh;
+  background-attachment: fixed;
+}
+
+.frog{
+  display: flex;
+  justify-content: space-between;
+  margin-left: 95px;
+  margin-right: 100px;
+  margin-top: 50px;
+}
+
+.gun img{
+  border-radius: 20px;
+ 
+}
+
+.gun img:hover{
+  box-shadow: 3px 5px 2px 3px rgb(6, 6, 6);
+  transition: 0.5s;
+ 
+}
+
+
+
+.egg h2{
+  padding: 20px;
+  font-size: 36px;
+  color: rgba(0, 255, 128, 0.481);
+}
+
+.egg p{
+  font-size: 20px;
+  font-style: italic;
+}
+
+.gun h4{
+
+  font-size: 25px;
+  color: rgba(246, 255, 0, 0.992);
+  font-style: italic;
+  position: absolute;
+}
+
+.gun{
+  position: relative;
+  
+}
+
+
+.hen{
+  position: absolute;
+  top: 0;width: 100%;
+  height: 100%;
+
+ 
+}
+
+.hen h4{
+  top: 50%;
+  left: 30%;
+  opacity: 0;
+  
+}
+
+.hen:hover{
+  background-color: rgba(255, 228, 196, 0.343);
+  border-radius: 20px;
+  transition: 0.5s;
+}
+
+.hen:hover h4{
+  opacity: 1;
+  top: 10%;
+  transition: 1s;
+}
+
+/* third section */
+
+.ink{
+  text-align: center;
+  background-color: beige;
+  height: 90vh;
+}
+
+.jet{
+  display: flex;
+  justify-content: space-between;
+  padding-top: 40px;
+}
+
+.kettle{
+  display: flex;
+  padding-top: 50px;
+  margin-left: 30px;
+ 
+}
+
+.lemon3{
+  width: 100%;
+  position: absolute;
+  right: 40%;
+  left: -20%;
+  margin-left: 10%;
+  margin-top: 20%;
+  
+  
+}
+
+.lemon3 img{
+  border-radius: 100%;
+}
+
+.lemon2{
+  width: 100%;
+  position: absolute;
+  right: 1%;  
+  
+}
+
+.lemon2 img{
+  border-radius: 100%;
+}
+
+.lemon1{
+  width: 100%;
+  
+}
+
+.lemon1 img{
+  border-radius: 50%;
+}
+
+.money{
+  margin-top: 80px;
+  margin-right: 2%;
+  text-align: justify;
+  
+}
+
+.money .twinkle{
+  margin-bottom: 80px;
+  font-size: larger;
+  color: cornflowerblue;
+}
+
+.money .pinky{
+  margin-top: 40px;
+  font-size: 20px;
+  
+}
+
+.money h3{
+  font-size: 28px;
+}
+
+.next{
+  padding: 10px 15px 10px 15px;
+  cursor: pointer;
+  background-color: aqua;
+  margin-top: 40px;
+  cursor: pointer;
+}
+
+/* fourth section */
+
+.nutmeg{
+  background-image: linear-gradient(rgba(210, 105, 30, 0.299), rgba(0, 255, 255, 0.225));
+  height: 110vh;
+  padding-top: 30px;
+  
+}
+
+.opera{
+  width: 93%;
+  height: 100vh;
+  padding-top: 30px;
+  background-image: linear-gradient(rgba(255, 228, 196, 0.818),rgba(128, 128, 128, 0.333)), url(./Images/Moon-Hotel-Huzhou.jpg);
+  margin-left: 50px;
+  border-radius: 50px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: scroll;
+}
+
+.queen{
+  text-align: center;
+
+}
+
+.queen h2{
+  font-size: 25px;
+  font-weight: bolder;
+  margin-bottom: 10px;
+}
+
+.prime{
+  color: crimson;
+}
+
+.queen p{
+  font-size: 20px;
+  font-style: italic;
+}
+
+.rich{
+  display: flex;
+  justify-content: space-around;
+  margin-top: 30px;
+}
+
+.stomp img{
+border-radius: 30px;
+border: 2px solid yellow;
+cursor: pointer;
+margin-left: 20px;
+}
+
+.stomp h3{
+  text-align: center;
+  color: yellowgreen;
+  margin: 3px;
+}
+
+.stomp p{
+  text-align: center;
+  font-size: 19px;
+  color: bisque;
+}
+
+.nexter{
+ margin-top: 13%;
+ margin-right: 15px;
+}
+
+.nextier{
+  padding: 20px;
+  border-radius: 110px;
+  border: none;
+  background-color: bisque;
+  cursor: pointer;
+}
+
+.nexter .nothing{
+  display: none;
+}
+
+.jelly{
+  display: none;
+}
+
+/* footer section */
+
+.footer-contain{
+  background-image: linear-gradient(rgba(67, 3, 3, 0.859), rgba(0, 0, 0, 0.722));
+  text-align: center;
+  height: 30vh;
+}
+
+.footer-flex{
+  display: flex;
+  justify-content: space-around;
+  padding-top: 50px;
+}
+
+.tooth h3{
+  margin-bottom: 10px;
+  color: rgba(255, 228, 196, 0.658);
+  font-weight: bolder;
+}
+
+.tooth p{
+  font-size: 20px;
+}
+
+.toothie p{
+  padding: 7px;
+  color: gray;
+  cursor: pointer;
+}
+
+.tooths h3{
+  margin-bottom: 10px;
+  color: rgba(255, 228, 196, 0.611);
+}
+
+.tooths p{
+  padding: 2px;
+}
+
+.toothed h3{
+  margin-bottom: 10px;
+  color: rgba(255, 228, 196, 0.635);
+}
+
+.toothed p{
+  padding: 7px;
+}
+
+
+
+
+@media screen and (max-width: 1200px) {
+   .palaba{
+    flex-direction: column;
+    
+   }
+
+  ul li{
+    display: block;
+    padding: 3px;
+    height: 10vh;
+  }
+
+
+  ul{
+    background-color: rgba(230, 187, 167, 0.684);
+    width: 112px;
+    position: absolute;
+    right: -220%;
+    /* display: none;  */
+    z-index: 2;
+    transition: 0.5s;
+   
+
+  }  
+
+  body{
+    overflow-x: hidden;
+  }
+  
+  .promise{
+    height: 95vh;
+  }
+
+  .checkbtn{
+
+    display: block;
+    font-size: larger;
+    margin: 20px;
+  }
+
+  /* .show{
+    display: block;
+  } */
+
+  .fa-mark{
+    display: block;
+    font-size: 25px;
+    cursor: pointer;
+    position: absolute;
+    top: 1%;
+    left: 15px;
+  }
+ 
+ /* second colume */
+
+ .baller{
+  width: 100%;
+  flex-direction: column;
+  margin-top: 5px;
+  padding: 15px;
+ }
+
+ .apple{
+  height: 130vh;
+  
+ }
+
+ .ballie{
+  margin: 15px;
+ }
+
+ .drop{
+  height: 130vh;
+ }
+
+ .frog{
+  margin-left: 20px;
+ }
+
+ /* .frog .gun{
+  display: none;
+ } */
+
+ .gun .origin{
+  display: none;
+ }
+
+ .gun .original{
+  display: none;
+ }
+
+ .gun .only img{
+  display: block;
+  
+
+ }
+
+ .jelly{
+  margin-left: 20px;
+  display: block;
+  margin-top: 50%;
+  
+  
+ }
+
+ .jellyfish{
+  padding: 15px;
+  border-radius: 10px;
+  border: none;
+  background-color: aquamarine;
+  cursor: pointer;
+  
+ }
+
+ .lemon2{
+  display: none;
+ }
+
+ .lemon3{
+  display: none;
+ }
+
+ .money{
+  /* margin-top: 5px; */
+  position: absolute;
+  left: 5%;
+ }
+
+ .money .twinkle{
+  color: #ec4b11;
+  font-size: 25px;
+ }
+
+ .money h3{
+  color: rgb(255, 166, 0);
+ }
+
+ .money .pinky{
+  color: #ec4b11;
+ }
+
+ .stomp{
+  display: none;
+  
+ }
+
+ .opera{
+  margin-left: 18px;
+ }
+
+ .nexter .nothing{
+  display: block;
+  margin: 20px;
+  color: #693e2f;
+ }
+
+ .nextier{
+  margin-left: 40%;
+ }
+
+ .footer-flex{
+  flex-direction: column;
+ }
+
+ .footer-contain{
+  height: 100vh;
+ }
+
+
+}
+    
+ 
+
+
+
+
+
